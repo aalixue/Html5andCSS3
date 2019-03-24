@@ -24,7 +24,7 @@
         }
         .box{
             padding: 10px;
-            width: 405px;
+            width: 370px;
             overflow: auto;
             border: 1px #e0e0e0 solid;
         }
@@ -33,6 +33,7 @@
             background-color: #e0e0e0;
             display: inline-block;
             margin-bottom: 15px;
+            border: 1px #cccccc solid;
         }
     </style>
 </head>
@@ -49,7 +50,7 @@
 </body>
 <script>
     document.getElementById("btn").onclick = function() {
-        var time = new Date().getTime();
+        var time = new Date().getTime();    
         var data = document.getElementById("seek").value;
         localStorage.setItem(time, data);
         var target = document.getElementById("msg");
