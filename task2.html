@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>task2</title>
+    <style>
+        #seek{
+            width: 195px;
+            height: 45px;
+        }
+        #btn{
+            width: 140px;
+            height: 38px;
+            color: #949494;
+        }
+        .del{
+            float: right;
+            border: 1px #e0e0ee solid;
+            background-color: #e0e0e0;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        .box{
+            padding: 10px;
+            width: 405px;
+            overflow: auto;
+            border: 1px #e0e0e0 solid;
+        }
+        #message{
+            margin-right: 10px;
+            background-color: #e0e0e0;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form>
+            <input type="search" name="name1" placeholder="请输入想查找的商品" id="seek"/>
+            <input type="button" value="搜索" name="button1" id="btn"/>
+        </form>
+        <p>最近搜索</p>
+        <div id="msg"></div>
+        <button class="del">X</button>
+    </div> 
+</body>
+<script>
+    document.getElementById("btn").onclick = function() {
+        var time = new Date().getTime();
+        var data = document.getElementById("seek").value;
+        localStorage.setItem(time, data);
+        var target = document.getElementById("msg");
+        target.innerHTML += "<span id='message'>"+data+"</span>";
+        document.getElementById("seek").value = null;
+    }
+    
+    document.getElementsByClassName("del")[0].onclick = function(){
+        if(window.confirm("是否要进行全部清除？")){
+		    localStorage.clear();
+        }
+        var target1 = document.getElementById("msg");
+        target1.innerHTML = "";
+    }
+
+</script>
+</html>
