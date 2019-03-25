@@ -49,22 +49,28 @@
     </div> 
 </body>
 <script>
-    document.getElementById("btn").onclick = function() {
-        var time = new Date().getTime();    
-        var data = document.getElementById("seek").value;
-        localStorage.setItem(time, data);
-        var target = document.getElementById("msg");
-        target.innerHTML += "<span id='message'>"+data+"</span>";
-        document.getElementById("seek").value = null;
-    }
-    
-    document.getElementsByClassName("del")[0].onclick = function(){
-        if(window.confirm("是否要进行全部清除？")){
-		    localStorage.clear();
+    window.onload = function(){
+		if(!window.localStorage){
+		    alert("你的浏览器不支持localStorage");
         }
-        var target1 = document.getElementById("msg");
-        target1.innerHTML = "";
+        else{
+            document.getElementById("btn").onclick = function() {
+                var time = new Date().getTime();    
+                var data = document.getElementById("seek").value;
+                localStorage.setItem(time, data);
+                var target = document.getElementById("msg");
+                target.innerHTML += "<span id='message'>"+data+"</span>";
+                document.getElementById("seek").value = null;
+            }
+    
+            document.getElementsByClassName("del")[0].onclick = function(){
+                if(window.confirm("是否要进行全部清除？")){
+		            localStorage.clear();
+                }
+                var target1 = document.getElementById("msg");
+                target1.innerHTML = "";
+            }
+        }
     }
-
 </script>
 </html>
