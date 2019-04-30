@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 300px;
+            height: 150px;
+            float: left;
+            text-align: center;
+        }
+        #prize{
+            font-size: 50px;
+            line-height: 150px;
+            color: red;
+        }
+        #canvas{
+            float: left;
+            margin-left: 10px;
+            margin-top: -150px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <span id="prize">谢谢惠顾</span>
+        <canvas id="canvas" width="300" height="150"></canvas>        
+    </div>
+</body>
+<script>
+    var prize = document.getElementById("prize");
+    var canvas = document.getElementById("canvas");
+    var context = canvas.getContext("2d");
+    context.fillStyle = '#aaaaaa';
+    context.fillRect(0,0,300,150);
+    context.fill();
+    context.globalCompositeOperation = 'destination-out';
+
+    var arr = ['一等奖','二等奖','三等奖','谢谢惠顾'];
+    prize.innerHTML = arr[Math.floor(Math.random()*arr.length)];
+
+    canvas.onmousedown = function(e){
+        mouse = true;
+        var x = e.clientX-10;
+        var y = e.clientY-10;
+        context.beginPath();
+        context.arc(x,y,25,0,Math.PI*2);
+        context.fill();
+        context.closePath();
+    }
+   
+    canvas.onmousemove = function(e){
+        if(mouse){
+            var x = e.clientX-10;
+            var y = e.clientY-10;
+            context.beginPath();
+            context.arc(x,y,25,0,Math.PI*2);
+            context.fill();
+            context.closePath();
+        }
+    }
+
+    document.onmouseup = function(){
+        mouse = false;
+        var j=0;
+        var k = context.getImageData(0,0,300,150);
+        for(var i=0;i<k.data.length;i+=2){
+            if(k.data[i]==0)
+                j++;
+        }
+        // 全部刮开
+        if(j > k.data.length/2*0.85){
+            context.clearRect(0,0,300,150);
+        }
+    }
+
+</script>
+</html>
