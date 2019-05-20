@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 370px;
+            height: 430px;
+            border: 5px solid #e5e5e5;
+            position: relative;
+            overflow: hidden;
+        }
+        #box:hover{
+            transition-property: border;
+            border: 5px solid gray;
+	    	transition-duration: 1s;
+        }
+        #image{
+            width: 370px;
+			height: 245px;
+			background-repeat: no-repeat;
+	        background-image: url(zhanqiao.jpg);
+			background-size: cover;
+            position: relative;
+            z-index: -100;
+        }
+        #box:hover #shadow{
+            width: 370px;
+            height: 250px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: rgba(128, 128, 128, 0.4);
+            z-index: -1;
+        }
+        #box:hover #image{
+            transition-property: transform;
+	    	transition-duration: 1s;
+            transform: scale(1.2);
+        }
+        #image1{
+            width: 55px;
+            height: 25px;
+            background: #f5722f;
+            font-size: 12px;
+            color: white;
+            line-height: 25px;
+            text-align: center;
+            top: 220px;
+            position: absolute;
+            z-index: 1;
+        }
+        #box:hover #image1{
+            transition-property: top;
+	    	transition-duration: 1s;
+            top: 120px;
+        }
+        #date{
+            width: 47px;
+            height: 47px;
+            background: #f5722f;
+            border-radius: 50%;
+            position: absolute;
+            top: 17px;
+            right: 17px;
+        }
+        .date1{
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            display: block;
+            text-align: center;
+        }
+        #box1{
+            background: white;
+            padding-left: 20px;
+            margin-top: 0px;
+            overflow: hidden;
+        }
+        #box:hover #box1{
+            margin-top: -100px;
+            padding-left: 20px;
+            transition-property: margin-top;
+	    	transition-duration: 1s;
+        }
+        #time{
+            font-size: 12px;
+            color: #bdbdbd;
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            background: white;
+        }
+        #comment{
+            font-size: 12px;
+            color: #bdbdbd;
+            display: block;
+            position: absolute;  
+            top: 10px;
+            left: 80px;
+            background: white;
+        }
+        #word1{
+            font-size: 20px;
+            color: #f5722f;
+            margin-top: -10px;
+        }
+        #word2{
+            margin-top: -25px;
+            line-height: 30px;
+            color: white;
+        }
+        #box:hover #word2{
+            transition-property: margin-top;
+	    	transition-duration: 1s;
+            color: #8c8d91;
+        }
+        #box2{
+            background: white;
+            width: 370px;
+            height: 40px;
+            position: absolute;
+            top: 390px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="date">
+            <span class="date1" style="padding-top: 5px;">15</span>
+            <span class="date1">五月</span>
+        </div>
+        <div id="image"></div>
+        <div id="shadow"></div>
+        <div id="box1">
+            <h2>青岛栈桥</h2>
+            <div>
+                <p id="word1">国家AAAA级旅游景区</p>
+                <p id="word2">青岛栈桥是青岛海滨风景区的景点之一，是国务院于1982年首批公布的国家级风景名胜区。青岛栈桥位于游人如织的青岛中山路南端，桥身从海岸探入如弯月般的青岛湾深处。桥身供游人参观并在此停靠旅游船，由此乘船可看海上青岛。</p>
+            </div>
+        </div>
+        <div id="box2">
+            <span id="time">10分钟</span>
+            <span id="comment">123评论</span>
+        </div>
+        <div id="image1">照片</div>
+    </div>
+</body>
+</html>
