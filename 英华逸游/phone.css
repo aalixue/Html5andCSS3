@@ -1,0 +1,366 @@
+@media only screen and (max-width:750px){
+    .all{
+        width: 750px;
+    }
+    .container{
+        width: 750px;
+        background: white;
+    }
+    .image{
+        background: white;
+        height: 80px;
+    }
+    .btn3{
+        float: right;
+        margin: 20px 40px 0 0;
+    }
+    .btn4{
+        margin-top: 20px;
+        color: white;
+        height: 50px;
+        width: 165px;
+        border-radius: 10px;
+        font-size: 22px;
+        float: right;
+    }
+    #col-1{
+        background: white;
+        z-index: 3;
+        margin-left: -20px;
+    }
+    .nav{
+        margin-left: 20px;
+    }
+    .nav li{
+        margin: 0 0 0 0;
+    }
+    .nav li:first-child{
+        margin: 0 0 0 0;
+    }
+    .top{
+        display: none;
+    }
+    .jiantou{
+        display: none;
+    }
+    #generic{
+        display: none;
+    }
+    .phoneimg{
+        width: 750px;
+        height: 370px;
+        display: block;
+        position: relative;
+        z-index: -2;
+    }
+    .allline{
+        display: none;
+    }
+    .add3{
+        height: 150px;
+        width: 600px;
+        margin: -300px 0 0 60px;
+        float: left;
+        color: white;
+        z-index: -1;
+        border-bottom: 1px solid #d2d2d6;
+    }
+    .btn1{
+        width: 150px;
+        height: 50px;
+        float: left;
+        background: #d3d3d8;
+        border: 1px solid #d3d3d8;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .btn2{
+        width: 130px;
+        height: 50px;
+        float: right;
+        background: #cb5405;
+        border-radius: 0px 5px 5px 0px;
+        border: 1px solid #cb5405;
+        margin-top: -10px;
+    }
+    .bottom{
+        width: 580px;
+        height: 60px;
+        background: #e1e1e1;
+        margin: 0 auto;
+        position: relative;
+        margin: -100px 0 0 70px;
+        border: 5px solid rgba(0, 0, 0, 0.8);
+        border-radius: 5px;
+    }
+    .country li{
+        float: left;
+        display: inline-block;
+        direction: none;
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 16px;
+        color: #6c6c6c;
+    }
+    .destination{
+        color: #535353;
+        font-size: 16px;
+    }
+    .b1{
+        font-size: 40px;
+        color: #d2d2d6;
+    }
+    .b2{
+        font-size: 26px;
+        color: #d2d2d6;
+        font-weight: lighter;
+    }
+    .sl{
+        display: none;
+    }
+    .box2{
+        display: none;
+    }
+    .img1{
+        display: none;
+    }
+    .earth{
+        display: none;
+    }
+    .mission3{
+        display: none;
+    }
+    .black{
+        display: none;
+    }
+    .black2{
+        display: none;
+    }
+    .part1{
+        display: block;
+        width: 750px;
+    }
+    .part2{
+        width: 680px;
+        margin: 0 auto;
+    }
+    .part3{
+        width: 680px;
+        height: 200px;
+        margin-top: 20px;
+        background: white;
+        position: relative;
+    }
+    .part4{
+        display: inline-block;
+        padding: 50px 0 0 40px;
+        height: 200px;
+    }
+    .role1{
+        color: #1c5080;
+        font-size: 30px;
+    }
+    .role2{
+        font-size: 22px;
+        color: #666666;
+    }
+    .role3{
+        font-size: 28px;
+        color: #8c8c8c;
+        font-weight: lighter;
+        height: 55px;
+        width: 165px;
+        border-radius: 5px;
+        border: 1px solid #8c8c8c;
+        background: white;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+    }
+    .part5{
+        margin-top: 40px;
+        height: 1040px;
+        width: 680px;
+        background: white;
+        font-size: 30px;
+    }
+    .ai1{
+        width: 680px;
+        height: 395px;
+        position: relative;
+    }
+    .ai2{
+        width: 680px;
+        height: 395px;
+        margin-top: 20px;  
+        position: relative;
+    }
+    .ai1 .day{
+        width: 680px;
+        height: 115px;
+        background: black;
+        opacity: 0.8;
+        position: absolute;
+        top: 280px;
+        left: 0;
+        color: white;
+        padding-bottom: 10px;
+    }
+    .day1{
+        font-size: 26px;
+        margin-left: 10px;
+        font-weight: lighter;
+    }
+    .day2{
+        font-size: 20px;
+        display: inline-block;
+        float: right;
+        margin-top: -65px;
+        margin-right: 30px;
+    }
+    .ai2 .day3{
+        width: 680px;
+        height: 115px;
+        background: black;
+        opacity: 0.8;
+        position: absolute;
+        top: 280px;
+        left: 0;
+        color: white;
+        padding-bottom: 10px;
+    }
+    .look{
+        height: 50px;
+        width: 230px;
+        border-radius: 5px;
+        border: 1px solid #989898;
+        font-size: 28px;
+        margin: 55px 0 0 250px;
+        background: white;
+        color: #989898;
+    }
+    .part6{
+        height: 650px;
+        width: 680px;
+        background: white;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .part7{
+        height: 410px;
+        width: 680px;
+    }
+    .ai3{
+        width: 295px;
+        height: 410px;
+        float: left;
+        position: relative;
+    }
+    .ai4{
+        height: 410px;
+        width: 360px;
+        float: right;
+    }
+    .ai5{
+        position: relative;
+    }
+    .ai6{
+        margin-top: 20px;
+        position: relative;
+    }
+    .ai3 .day4{
+        font-size: 20px;
+        width: 295px;
+        height: 55px;
+        background: black;
+        opacity: 0.6;
+        position: absolute;
+        top: 355px;
+        left: 0;
+        color: white;
+    }
+    .ai5 .day5{
+        font-size: 20px;
+        width: 360px;
+        height: 55px;
+        background: black;
+        opacity: 0.6;
+        position: absolute;
+        top: 140px;
+        left: 0;
+        color: white;
+    }
+    .ai6 .day5{
+        font-size: 20px;
+        width: 360px;
+        height: 55px;
+        background: black;
+        opacity: 0.6;
+        position: absolute;
+        top: 140px;
+        left: 0;
+        color: white;
+    }
+    .part8{
+        height: 1600px;
+        width: 750px;
+    }
+    .part9{
+        width: 750px;
+        height: 1600px;
+        background: url(img/back.png) no-repeat;
+    }
+    .part10{
+        width: 680px;
+        height: 1600px;
+        margin: 0 auto;
+    }
+    .diamond{
+        width: 680px;
+        height: 260px;
+        border-bottom: 1px solid #e8e8e8;
+        position: relative;
+    }
+    .icon11{
+        position: absolute;
+        top: 80px;
+        left: 100px;
+    }
+    .champion{
+        width: 680px;
+        height: 190px;
+        border-bottom: 1px solid #e8e8e8;
+        position: relative;
+    }
+    .icon22{
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    .icon33{
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    .good{
+        width: 680px;
+        height: 165px;
+        border-bottom: 1px solid #e8e8e8;
+        position: relative;
+    }
+    .part11{
+        height: 300px;
+        width: 750px; 
+        background: black;
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .allline{
+        display: none;
+    }
+    .add2{
+        display: none;
+    }
+}

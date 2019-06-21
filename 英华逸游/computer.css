@@ -1,0 +1,673 @@
+@media only screen and (min-width:680px){
+    /* 导航开始 */
+    .top{
+        background: black;
+        width: 100%;
+        height: 45px;;
+    }
+    .box{
+        background: black;
+        width: 1200px;
+        height: 45px;
+        margin: 0 auto;
+        position: relative;
+    }
+    #tell{
+        position: absolute;
+        left: 850px;
+        top: 10px;
+    }
+    #number{
+        position: absolute;
+        left: 900px;
+        top: 10px;
+        color: white;
+        font-size: 20px;
+    }
+    #logn{
+        position: absolute;
+        left: 1095px;
+        top: 10px;
+        color: white;
+        font-size: 14px;
+    }
+    #line{
+        position: absolute;
+        left: 1150px;
+        top: 10px;
+        color: white;
+        font-size: 14px;
+    }
+    #sign{
+        position: absolute;
+        left: 1170px;
+        top: 10px;
+        color: white;
+        font-size: 14px;
+    }
+    #bar{
+        background: black;
+    }
+    .container{
+        width: 1200px;
+        background: #e1e1e1; 
+        height:80px;
+    }
+    .image{
+        height: 80px; 
+        background: #e1e1e1;
+    }
+    .nav li{
+        font-size: 16px;
+        margin: 10px 0 0 60px;
+    }
+    .nav li:first-child{
+        margin-left: 140px;
+    }
+    #shouye{
+        border-bottom: 3px solid #cb5405;
+        
+    }
+    #hot:hover{
+        border-bottom: 3px solid #cb5405;
+    }
+    #recommend:hover{
+        border-bottom: 3px solid #cb5405;
+    }
+    #vision:hover{
+        border-bottom: 3px solid #cb5405;
+    }
+    /* 导航结束 */
+    /* 轮播开始 */
+    #generic{
+        position:relative;
+        height: 445px;
+    }
+    .btn1{
+        width: 150px;
+        height: 50px;
+        float: left;
+        background: #d3d3d8;
+        border: 1px solid #d3d3d8;
+        border-radius: 5px 0px 0px 5px;
+    }
+    .btn2{
+        width: 130px;
+        height: 50px;
+        float: right;
+        background: #cb5405;
+        border-radius: 0px 5px 5px 0px;
+        border: 1px solid #cb5405;
+        margin-top: -10px;
+    }
+    .bottom{
+        width: 580px;
+        height: 60px;
+        background: #e1e1e1;
+        margin: 0 auto;
+        position: relative;
+        border-radius: 5px;
+        border: 5px solid rgba(0, 0, 0, 0.8);
+    }
+    .country li{
+        float: left;
+        display: inline-block;
+        direction: none;
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 16px;
+        color: #6c6c6c;
+    }
+    .destination{
+        color: #535353;
+        font-size: 16px;
+    }
+    #generic .add{
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #b3b3b6;
+        margin-left: 180px;
+        margin-top: 80px;
+    }
+    .allline{
+        height: 3px;
+        width: 100%;
+        background: #c2c2c2;
+    }
+    .line{
+        height: 3px;
+        width: 480px;
+        margin:0 auto;
+        background: #cb5405;
+    }
+    .left1{
+        position: absolute;
+        top:300px;
+        left: 0;
+    }
+    .right1{
+        position: absolute;
+        top: 300px;
+        right: 0px;
+    }
+    .phoneimg{
+        display: none;
+    }
+    /* 轮播结束 */
+    .box2{
+        width: 1200px;
+        margin: 0 auto;
+        background: #dddddd;
+    }
+    .sl{
+        height: 360px;
+        margin: 0 auto;
+        width: 1200px;
+        margin-top: 25px;
+        position: relative;
+    }
+    .part1{
+        display: none;
+    }
+    .Sbanner2{
+        float: left;
+    }
+    .sr{
+        float: right;
+        width: 265px;
+        height: 360px;
+        background: #15316d;
+    }
+    .car{
+        margin: 75px 0 0 85px;
+    }
+    .carword{
+        font-size: 26px;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+    .detail{
+        height: 50px;
+        width: 180px;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 24px;
+        color: white;
+        font-weight: lighter;
+        background: #15316d;
+        margin: 40px 0 0 45px;
+    }
+    .sl .add1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 20px 0 0 540px;
+    }
+    .airport{
+        font-size: 36px;
+        color: #e1e1e1;
+        font-weight: lighter;
+    }
+    .city{
+        font-size: 18px;
+        color: #e1e1e1;
+        font-weight: lighter;
+    }
+    .route{
+        font-size: 36px;
+        margin: 30px 0 0 500px;
+    }
+    .popular{
+        font-size: 18px;
+        margin: 5px 0 0 500px;
+    }
+    /* 热门线路开始 */
+    .container1{
+        width: 1200px;
+        height: 1015px;
+        background: #dddddd;
+        margin-top: 40px;
+    }
+    .tow{
+        width: 590px;
+        height: 1030px; 
+        float: left;
+        display: inline-block;
+        position: relative;
+    }
+    .three{
+        width: 600px;
+        height: 1030px;
+        float: left; 
+        display: inline-block;
+        margin-left: 5px;
+        position: relative;
+    }
+    .small{
+        font-size: 16px; 
+        margin:20px 0 0 40px;
+    }
+    .big{
+        font-size: 20px; 
+        margin:10px 0 0 40px;
+    }
+    .tow .addtion1{
+        position: absolute;
+        left: 0;
+        top: 412px;
+        width: 591px;
+        height: 90px;
+        background: black;
+        color: white;
+    }
+    .tow .addtion2{
+        position: absolute;
+        left: 0;
+        top: 920px;
+        width: 591px;
+        height: 90px;
+        background: black;
+        color: white;
+    }
+    .three .addtion3{
+        position: absolute;
+        left: 0;
+        top: 200px;
+        width: 602px;
+        height: 90px;
+        background: black;
+        opacity: 0.6;
+        color: white;
+    }
+    .three .addtion4{
+        position: absolute;
+        left: 0;
+        top: 555px;
+        width: 602px;
+        height: 90px;
+        background: black;
+        opacity: 0.6;
+        color: white;
+    }
+    .three .addtion5{
+        position: absolute;
+        left: 0;
+        top: 920px;
+        width: 602px;
+        height: 90px;
+        background: black;
+        opacity: 0.6;
+        color: white;
+    }
+    /* 热门线路结束 */
+    /* 签证推荐开始 */
+    .visa{
+        height: 150px;
+    }
+    .list{
+        margin: 25px 0 0 360px;
+    }
+    .list li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    /* 签证推荐结束 */
+    /* 签证推荐图片开始 */
+    .container2{
+        width: 1200px;
+        height: 560px;
+    }
+    .v1{
+        width: 400px;
+        float: left;
+        position: relative;
+    }
+    .v2{
+        width: 400px;
+        float: left;
+        position: relative;
+    }
+    .v3{
+        width: 400px;
+        float: left;
+        position: relative;
+    }
+    .onword{
+        font-size: 16px; 
+        margin:20px 0 0 40px;
+        display: inline-block; 
+    }
+    .bottomword{
+        font-size: 20px; 
+        margin:20px 0 0 40px;
+        display: inline-block; 
+    }
+    .onword1{
+        font-size: 16px; 
+        margin:10px 0 0 40px;
+        display: inline-block; 
+    }
+    .bottomword1{
+        font-size: 20px; 
+        margin:10px 0 0 40px;
+        display: inline-block; 
+    }
+    .v1 .addtion6{
+        position: absolute;
+        left: 0;
+        top: 495px;
+        width: 397px;
+        height: 65px;
+        background: black;
+        opacity: 0.6;
+        color: white;
+    }
+    .v2 .addtion7{
+        position: absolute;
+        left: 0;
+        top: 225px;
+        width: 397px;
+        height: 50px;
+        background: black;
+        opacity: 0.6;
+        color: white;
+    }
+    .v2 .addtion8{
+        position: absolute;
+        left: 0;
+        top: 505px;
+        width: 397px;
+        height: 50px;
+        background: black;
+        opacity: 0.6;
+        color: white;
+    }
+    .v3 .addtion9{
+        position: absolute;
+        left: 0;
+        top: 227px;
+        width: 400px;
+        height: 50px;
+        background: black;
+        opacity: 0.6;
+        color: white;
+    }
+    .v3 .addtion10{
+        position: absolute;
+        left: 0;
+        top: 505px;
+        width: 400px;
+        height: 50px;
+        background: black;
+        opacity: 0.6;
+        color: white;
+    }
+    /* 签证推荐图片结束 */
+    .more{
+        height: 200px;
+    }
+    .morebtn{
+        width: 230px;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 18px;
+        margin: 50px 0 0 470px;
+    }
+    .earth{
+        width: 100%;
+        height: 650px;
+        background: url(img/back.png) no-repeat;
+    }
+    .vision1{
+        font-size: 36px;
+        padding: 120px 0 0 580px;
+    }
+    .travel{
+        font-size: 16px;
+        padding: 10px 0 0 560px;
+    }
+    .idea{
+        height: 350px;
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .mission1{
+        float: left;
+    }
+    .idea1{
+        height: 350px;
+        width: 704px;
+        float: right;
+        background: #143d63;
+        opacity: 0.8;
+    }
+    .title{
+        font-size: 26px;
+        margin: 85px 0 0 250px;
+        color: white;
+        font-weight: lighter;
+    }
+    .content{
+        width: 510px;
+        height: 150px;
+        font-size: 16px;
+        color: white;
+        margin: 20px 0 0 90px;
+        font-weight: lighter;
+        text-indent: 1em;
+    }
+    .mission3{
+        width: 1200px;
+        height: 877px;
+        margin: 0 auto;
+        margin-top: -45px;
+    }
+    .mission2{
+        margin-top: 2px;
+        background: #1c5080;
+        height: 403px;
+    }
+    .list2{
+        width: 400px;
+        height: 403px;
+        display: inline-block;
+        float: left;
+    }
+    .circle{
+        height: 360px;
+        width: 360px;
+        background: #1c5080;
+        position: relative;
+        margin: 40px 0 0 175px;
+    }
+    .icon1{
+        position: absolute;
+        top: 50px;
+        left: 65px;
+    }
+    .route1{
+        position: absolute;
+        top: 125px;
+        left: 55px;
+        color: white;
+        font-size: 20px;
+    }
+    .icon2{
+        position: absolute;
+        top: 40px;
+        left: 70px;
+    }
+    .circle1{
+        height: 360px;
+        width: 360px;
+        background: #1c5080;
+        position: relative;
+        margin: 40px 0 0 100px;
+    }
+    .circle2{
+        height: 360px;
+        width: 360px;
+        background: #1c5080;
+        position: relative;
+        margin: 40px 0 0 30px;
+    }
+    .icon3{
+        position: absolute;
+        top: 50px;
+        left: 70px;
+    }
+    .first1{
+        position: absolute;
+        top: 235px;
+        left: -30px;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+    }
+    .first2{
+        position: absolute;
+        top: 270px;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+    }
+    .second1{
+        position: absolute;
+        top: 235px;
+        left: 50px;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+    }
+    .second2{
+        position: absolute;
+        top: 270px;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+    }
+    .third1{
+        position: absolute;
+        top: 235px;
+        left: 50px;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+    }
+    .third2{
+        position: absolute;
+        top: 270px;
+        left: -10px;
+        font-size: 16px;
+        color: white;
+        font-weight: lighter;
+    }
+    /* 底部开始 */
+    .black {
+        width: 100%;
+        height: 370px;
+        background: black;
+        border-bottom: 2px solid #404040;
+    }
+    .black1{
+        width: 1200px;
+        height: 370px;
+        margin: 0 auto;
+    }
+    .team{
+        font-size: 18px;
+        padding: 50px 0 0 30px;
+        color: white;
+        display: inline-block;
+    }
+    .picture{
+        display: inline-block;
+    }
+    .picture li{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    .pword{
+        margin-left: 100px;
+        position: relative;
+    }
+    .pword li{
+        display: inline-block;
+        font-size: 14px;
+        color: white;
+        margin-left: 50px;
+    }
+    .l1{
+        position: absolute;
+        left:160px;
+    }
+    .l2{
+        position: absolute;
+        left:282px;
+    }
+    .l3{
+        position: absolute;
+        left:382px;
+    }
+    .hp{
+        position: relative;
+        font-size: 18px;
+        top:10px;
+        left: 30px;
+        color: white;
+    }
+    .hotposition{
+        position: relative;
+        left:110px;
+        top:-28px;
+        width: 1090px;
+    }
+    .hotposition li{
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+    .theme {
+        color: white;
+        font-size: 18px;
+        position: relative;
+        top: 3px;
+        left: 30px;
+    }
+    .themespot{
+        position: relative;
+        left:110px;
+        top:-35px;
+        width: 1090px;
+    }
+    .themespot li{
+        display: inline-block;
+        color: white;
+        font-size: 14px;
+        margin-right: 10px;
+        line-height: 25px;
+    }
+    .black2{
+        width: 100%;
+        height: 160px;
+        background: black;
+    }
+    .num{
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        padding-top: 40px;
+    }
+    /* 底部结束 */
+    .part1{
+        display: none;
+    }
+
+}
